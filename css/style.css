@@ -1,0 +1,354 @@
+/* CSS Document */
+
+
+/* body parameters will set the background image and determine its position */
+
+body {
+
+	background-image:url(../images/bg.jpg);
+	background-position: top center;	
+	background-repeat: no-repeat;
+	background-color: #000000;
+	margin: 0;
+
+}
+
+/* The # parameter will set specific configuration for each ID determined on HTML file */
+
+#top {
+	width: 980px;
+	height: 180px;
+	text-align: center;
+	margin: auto;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #58508d;
+	border-width: 2px 2px 1px 2px;
+}
+
+#logo { 
+
+	width: 980px;
+	height: 180px;
+	
+}
+
+
+#menu {
+	width: 980px;
+	height: 50px;
+	margin: 0 auto 0 auto;
+	background-color: #b1e8ed;
+	border-style: solid;
+	border-color: #58508d;
+	border-width: 1px 2px 2px 2px;
+	
+}
+
+
+#bottom {
+
+	width: 980px;
+	height: 650px;
+	margin: 0 auto 0 auto;
+	
+}
+
+#box1{
+	
+	width: 650px;
+	height: 420px;
+	background-color: #edb5f5;
+	float: left;
+	opacity: .9;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#box1-2{
+	
+	width: 650px;
+	height: 620px;
+	background-color: #edb5f5;
+	float: left;
+	opacity: .9;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#box2{
+	
+	width: 650px;
+	height: 320px;
+	background-color: #edb5f5;
+	float: left;
+	opacity: .9;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#box3{
+	
+	width: 320px;
+	height: 535px;
+	background-color: #edb5f5;
+	float: left;
+	opacity: .9;
+	margin-top: 10px;
+
+
+}
+
+#box4{
+	
+	width: 320px;
+	height: 75px;
+	background-color: #edb5f5;
+	float: left;
+	opacity: .9;
+	margin-top: 10px;
+
+
+}
+
+#box3 img{
+
+	width: 80px; 
+	height: 80px;
+	margin: 1 1 1 1;
+	position: relative;
+	overflow: hidden;
+	object-fit: cover;
+	object-position: center;
+}
+
+#box4 img{
+
+	display: inline-block;
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+
+#menu table, #menu th, #menu td {
+  width: 980px;
+  padding: 2px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 28px;
+  color: #58508d;
+  text-shadow: 0px 0px 0.5px #000000;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#menu td:hover {
+
+	background-color: #d9eeec;
+}
+
+/* h parameters will set headings specifications */
+
+#box1-2 table {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#box1-2 td, #box1-2 th {
+  border: 2px solid #b1e8ed;
+  text-align: center;
+  padding: 8px;
+}
+
+#box1-2 tr:nth-child(even) {
+  background-color: #b1e8ed;
+}
+
+#menu a:link, a:visited {
+  padding: 1px 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #58508d;
+}
+
+#menu a:active {
+	color: black;
+	text-decoration: none;
+}
+
+
+#links a:link, a:visited {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #ffdfdf;
+
+}
+
+#links a:hover {
+	color: black;
+	text-decoration: none;
+	 background-color: #ffffdf;
+}
+
+#links a:active {
+	color: black;
+	text-decoration: none;
+}
+
+#color {
+
+		color: white;	
+}
+
+/* The h# parameter will set headers' specifications */
+
+h1 {
+	
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Roboto Mono', monospace;
+	color: #ffffff;
+	font-size: 36px;
+	text-shadow: 0px 0px 1px #000;
+	padding-top: 5px;
+	font-weight: bolder;
+
+}
+
+h2 {
+
+	text-transform: uppercase;
+	font-family: 'Roboto Slab', serif;
+	font-size: 22px;
+	color: #1a2849;
+	font-weight:bold;
+	padding-left: 10px;	
+	text-align: center;
+}
+
+h3 {
+
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	color: #512c96;
+	font-weight:bold;
+	padding-left: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin:0;
+	text-shadow: 0px 0px 1px #000;	
+	text-align: center;
+
+}
+
+h4 {
+
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #512c96;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin:0;
+	text-shadow: 0px 0px 1px #000;	
+	text-align: center;
+
+}
+
+/* p parameters will set paragraphs' specifications */
+
+p {
+	
+	font-size: 18px;
+	font-family: 'Roboto Slab', serif;
+	color: #06282b;
+	padding-right: 35px;
+	padding-left: 35px;
+	text-align: justify;	
+	padding-bottom: : 0px;
+	padding-top: 0px;
+
+}
+
+
+/* ul, ol and li parameters will set lists' specifications */
+
+ul {
+
+	list-style-type: rounded;
+	padding-left: 40px;
+
+}
+
+ol {
+	padding-left: 40px;
+}
+
+li {
+	
+	font-size: 12px;
+	font-family: 'Roboto Slab', serif;
+	color: #06282b;
+	font-weight: bold;
+	line-height: 30px;
+
+}
+
+img {
+	
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+
+}
+
+iframe {
+
+ 	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    padding: 0px;
+
+}
+
+
+/* The . parameter will set specific configuration for each "class" determined on HTML file */
+
+.welcome {
+	font-size: 48px;
+	font-family: 'Modak', cursive;
+	color: #512c96;
+	text-align: center;	
+
+
+}
+
+.bio{
+	display: block;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	padding-bottom: 20px;
+
+}
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none;
+	height:200px;
+	width:500px;
+	padding: 10px 10px 10px 10px;
+	margin: 0px 10px 0px 60px
+}
